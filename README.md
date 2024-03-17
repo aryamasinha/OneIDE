@@ -1,5 +1,5 @@
 # OneIDE
-An open source online integrated development environment
+An open source Browser integrated development environment
 
 # Features
 1. User login
