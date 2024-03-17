@@ -18,6 +18,6 @@ An open source Browser integrated development environment
 # Architecture
 
 Overview: 
-The idea is to map the IP address of the corresponding domain name , and port to to a Docker container
-We will dynamically allocate containers , out of physical hosts , which can be scaled up or down.
-
+The idea is to map the IP address of the corresponding domain name , and port to a Docker container
+We will dynamically allocate containers , out of physical hosts , which can be scaled up or down as per need.
+Every time a user either refreshes or open a new editor , a new container will be allocated. We will scale up the physical hosts , if more containers are needed.
