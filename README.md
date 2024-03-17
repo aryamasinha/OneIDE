@@ -16,4 +16,8 @@ An open source Browser integrated development environment
 3. ----- TBD
 
 # Architecture
-1. ----- TBD
+
+Overview: 
+The idea is to map the IP address of the corresponding domain name , and port to to a Docker container
+We will dynamically allocate containers , out of physical hosts , which can be scaled up or down.
+
